@@ -1,5 +1,8 @@
 /* Change 'regular-rounded' to 'solid-rounded' in the URL */
 @import url('https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+/* Add this to your CSS file */
+@import url('https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css');
 :root {
     /* Deep Blues */
     --brand-primary: #406AAF;
@@ -260,7 +263,7 @@ section.projects {
     border-radius: 20%;
     gap: 1rem;
 }
-.contact-section h1 {
+section h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 300%;
     margin-bottom: 1rem;
@@ -289,6 +292,45 @@ section.projects {
     padding: 0.1rem 0.4rem;
     border-radius: 5px;
 }
+
+/**about section */
+.about-section {
+    height: 50rem;
+    width: auto;
+    background-color: var(--brand-tint);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    justify-content: space-evenly;
+    margin :0 2rem;
+    text-align: center;
+    border-radius: 20%;
+    gap: 1rem;
+}
+
+.introCard {
+    /* background-color: var(--brand-surface); */
+    color: var(--brand-primary);
+    width: 60%;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.skillsCard {
+    /* background-color: var(--brand-surface); */
+    color: var(--text-white);
+    width: 60%;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 3rem;
+    font-weight: 500;
+    color: var(--brand-primary);
+}
+
 
 footer {
     height: 10vh;
