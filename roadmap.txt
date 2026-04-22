@@ -1,0 +1,18 @@
+Roadmap --
+------portfolio
+1--design the page
+2-- html work
+3--css work
+
+constraints -- * make a portfolio
+which includes homepage,contactme,aboutme
+
+contact me ---- 
+linkdin 
+github 
+instagram
+email form
+
+about me----
+qualifications 
+skills
