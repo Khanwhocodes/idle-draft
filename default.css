@@ -30,7 +30,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: var(--brand-surface);
     color: var(--text-black);
-    position: relative;
+    /* position: relative; */
 }
 
 /*** Navigation Bar */
@@ -41,7 +41,7 @@ nav {
     color: var(--text-white);
     display: flex;
     align-items: center;
-    position: fixed;
+    
 }
 
 nav .logo-box {
